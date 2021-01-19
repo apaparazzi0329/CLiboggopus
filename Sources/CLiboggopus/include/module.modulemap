@@ -1,0 +1,6 @@
+module CLiboggopus {
+    umbrella header "shim.h"
+    export *
+    link "ogg"
+    link "opus"
+}
