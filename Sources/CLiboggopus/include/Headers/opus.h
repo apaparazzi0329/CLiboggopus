@@ -205,7 +205,7 @@ OPUS_EXPORT OPUS_WARN_UNUSED_RESULT int opus_encoder_get_size(int channels);
  * selected is too low. This also means that it is safe to always use 48 kHz stereo input
  * and let the encoder optimize the encoding.
  */
-OPUS_EXPORT OPUS_WARN_UNUSED_RESULT OpusEncoder opus_encoder_create(
+OPUS_EXPORT OPUS_WARN_UNUSED_RESULT OpusEncoder *opus_encoder_create(
     opus_int32 Fs,
     int channels,
     int application,
