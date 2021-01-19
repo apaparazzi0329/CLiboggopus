@@ -6,5 +6,8 @@
 
 #include <Headers/ogg.h>
 #include <Headers/opus.h>
+#include <Headers/config_types.h>
+#include <Headers/opus_header.h>
+#include <Headers/opus_multistream.h>
 
 #endif /* shim_h */
