@@ -22,6 +22,7 @@ extern "C" {
 #endif
 
 #include <stddef.h>
+#include <stdio.h>
 #include "os_types.h"
 
 typedef struct {
